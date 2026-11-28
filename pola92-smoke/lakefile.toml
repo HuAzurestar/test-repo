@@ -1,0 +1,6 @@
+name = "pola92-smoke"
+version = "0.1.0"
+defaultTargets = ["ZeroAdd"]
+
+[[lean_lib]]
+name = "ZeroAdd"

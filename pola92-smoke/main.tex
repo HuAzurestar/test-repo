@@ -1,0 +1,18 @@
+\documentclass{article}
+\newtheorem{theorem}{Theorem}
+\title{Zero as a Left Identity for Natural Number Addition}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{theorem}[\texttt{Pola92.zero\_add}]
+For every natural number $n$, we have $0 + n = n$.
+\end{theorem}
+
+\noindent\textit{Proof.}
+Fix $n : \mathtt{Nat}$. Lean's core lemma \texttt{Nat.zero\_add},
+not to be confused with the right identity $n + 0 = n$,
+asserts precisely that adding zero on the left leaves $n$ unchanged.
+Thus \texttt{Nat.zero\_add n} proves the stated equality.
+\end{document}
